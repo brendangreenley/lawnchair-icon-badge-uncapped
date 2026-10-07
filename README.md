@@ -1,4 +1,4 @@
-> **Fork: lawnchair-icon-badge-uncapped** — raises the notification counter cap to 20000, renders long counts in a pill-shaped dot, and removes the third-party shortcut corner badge. See [MODIFICATIONS.md](MODIFICATIONS.md).
+> **Fork: lawnchair-icon-badge-uncapped** — raises the notification counter cap to 20000, renders long counts in a pill-shaped dot, and removes the third-party shortcut corner badge. See [MODIFICATIONS.md](MODIFICATIONS.md). Not affiliated with or endorsed by the Lawnchair project.
 
 ![Counter pill on a mimicked Gmail shortcut](docs/badge_pill.png)
 

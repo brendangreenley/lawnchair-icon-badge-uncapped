@@ -28,6 +28,7 @@ import java.util.List;
  */
 public class DotInfo {
 
+    // Fork: raised from 999 so counters up to 20000 render in full.
     public static final int MAX_COUNT = 20000;
 
     /**
