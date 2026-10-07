@@ -16,7 +16,7 @@ Nothing else was altered — no extra binaries, no code-generation hooks beyond 
 The attached debug APK is built from this branch with the standard
 `./gradlew assembleLawnWithQuickstepGithubDebug`.
 
-![Counter pill on a mimicked Gmail shortcut](docs/badge_pill.png)
+<img src="docs/badge_pill.jpg" width="300" alt="Counter pill on a mimicked Gmail shortcut">
 
 The pill badge above shows a notification count of 21045 clamped and rendered at the
 20000 cap on a mimicked Gmail shortcut — no third-party marker on the icon.
