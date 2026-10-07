@@ -8,6 +8,11 @@ changes made by this fork.
 
 ## Changes (branch `badge-uncapped`)
 
+Full reviewable diff:
+[lawnchair `15-dev`...`badge-uncapped`](https://github.com/LawnchairLauncher/lawnchair/compare/15-dev...brendangreenley:lawnchair-icon-badge-uncapped:badge-uncapped)
+·
+[submodule `6a11ef7`...`badge-uncapped`](https://github.com/LawnchairLauncher/platform_frameworks_libs_systemui/compare/6a11ef7...brendangreenley:platform_frameworks_libs_systemui-badge-uncapped:badge-uncapped)
+
 1. **Notification counter cap raised from 999 to 20000**
    - `src/com/android/launcher3/dot/DotInfo.java` — `MAX_COUNT` raised to `20000`
      (upstream value: `999`). Controls the maximum count a notification dot represents.

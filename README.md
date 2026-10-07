@@ -1,4 +1,20 @@
-> **Fork: lawnchair-icon-badge-uncapped** — raises the notification counter cap to 20000, renders long counts in a pill-shaped dot, and removes the third-party shortcut corner badge. See [MODIFICATIONS.md](MODIFICATIONS.md). Not affiliated with or endorsed by the Lawnchair project.
+> **Fork: lawnchair-icon-badge-uncapped** — a fork of Lawnchair's **`15-dev`** branch
+> (base commit `505dbc4`) that raises the notification counter cap to 20000, renders
+> long counts in a pill-shaped dot, and removes the third-party shortcut corner badge.
+> See [MODIFICATIONS.md](MODIFICATIONS.md). Not affiliated with or endorsed by the
+> Lawnchair project.
+
+## Exact diff vs upstream
+
+Every change this fork makes (including the submodule change) is reviewable in one view:
+
+- Superproject: **[compare `15-dev`...`badge-uncapped`](https://github.com/LawnchairLauncher/lawnchair/compare/15-dev...brendangreenley:lawnchair-icon-badge-uncapped:badge-uncapped)**
+- Submodule (`platform_frameworks_libs_systemui`):
+  [compare `6a11ef7`...`badge-uncapped`](https://github.com/LawnchairLauncher/platform_frameworks_libs_systemui/compare/6a11ef7...brendangreenley:platform_frameworks_libs_systemui-badge-uncapped:badge-uncapped)
+
+Nothing else was altered — no extra binaries, no code-generation hooks beyond upstream.
+The attached debug APK is built from this branch with the standard
+`./gradlew assembleLawnWithQuickstepGithubDebug`.
 
 ![Counter pill on a mimicked Gmail shortcut](docs/badge_pill.png)
 
