@@ -1,3 +1,4 @@
+> **Fork: lawnchair-icon-badge-uncapped** — raises the notification counter cap to 20000, renders long counts in a pill-shaped dot, and removes the third-party shortcut corner badge. See [MODIFICATIONS.md](MODIFICATIONS.md).
 # Lawnchair 15
 
 [![Build debug APK](https://github.com/LawnchairLauncher/lawnchair/actions/workflows/ci.yml/badge.svg)](https://github.com/LawnchairLauncher/lawnchair/actions/workflows/ci.yml)

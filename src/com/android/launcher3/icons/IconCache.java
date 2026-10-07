@@ -295,7 +295,8 @@ public class IconCache extends BaseIconCache {
         if (isDefaultIcon(bitmapInfo, si.getUserHandle()) && fallbackIconCheck.test(info)) {
             return;
         }
-        info.bitmap = bitmapInfo.withBadgeInfo(getShortcutInfoBadge(si));
+        // Fork: never draw the third-party shortcut corner badge.
+        info.bitmap = bitmapInfo;
     }
 
     /**

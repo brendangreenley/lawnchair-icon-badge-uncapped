@@ -748,11 +748,7 @@ public final class Utilities {
                 ShortcutInfo si = siList.get(0);
                 mainIcon = ShortcutCachingLogic.getIcon(context, si,
                         appState.getInvariantDeviceProfile().fillResIconDpi);
-                // Only fetch badge if the icon is on workspace
-                if (info.id != ItemInfo.NO_ID && badge == null) {
-                    badge = appState.getIconCache().getShortcutInfoBadge(si)
-                            .newIcon(context, FLAG_THEMED);
-                }
+                // Fork: never draw the third-party shortcut corner badge.
             }
         } else if (info.itemType == LauncherSettings.Favorites.ITEM_TYPE_FOLDER) {
             FolderAdaptiveIcon icon = FolderAdaptiveIcon.createFolderAdaptiveIcon(

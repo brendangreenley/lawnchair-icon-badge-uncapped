@@ -28,7 +28,7 @@ import java.util.List;
  */
 public class DotInfo {
 
-    public static final int MAX_COUNT = 999;
+    public static final int MAX_COUNT = 20000;
 
     /**
      * The keys of the notifications that this dot represents.
