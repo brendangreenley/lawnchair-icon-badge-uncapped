@@ -5,6 +5,22 @@
 The pill badge above shows a notification count of 21045 clamped and rendered at the
 20000 cap on a mimicked Gmail shortcut — no third-party marker on the icon.
 
+## Setup (sideloaded debug build)
+
+1. Install the APK. Because it is sideloaded, Android marks its settings as restricted:
+   open **App info → (three-dot menu) → Allow restricted settings** first, otherwise
+   notification access cannot be enabled.
+2. Set it as the default launcher (press Home → choose Lawnchair → **Always**).
+3. Grant **notification access**: Settings → Devices & apps (or Apps) → Special app
+   access → Notification access → enable Lawnchair. (Lawnchair also surfaces this as a
+   warning under General → Notification dots.)
+4. Open **Lawnchair settings → General → Notification dots**: turn the dots on, then
+   toggle **Show notification counter** to render the number instead of a plain dot.
+5. On Android 13+, allow the notification permission if prompted.
+
+Pair with [Chameleon Badge](https://github.com/brendangreenley/chameleon-badge) to test
+counts up to 20,000 on a mimicked app icon.
+
 # Lawnchair 15
 
 [![Build debug APK](https://github.com/LawnchairLauncher/lawnchair/actions/workflows/ci.yml/badge.svg)](https://github.com/LawnchairLauncher/lawnchair/actions/workflows/ci.yml)
