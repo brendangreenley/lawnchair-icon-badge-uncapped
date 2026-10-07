@@ -1,4 +1,10 @@
 > **Fork: lawnchair-icon-badge-uncapped** — raises the notification counter cap to 20000, renders long counts in a pill-shaped dot, and removes the third-party shortcut corner badge. See [MODIFICATIONS.md](MODIFICATIONS.md).
+
+![Counter pill on a mimicked Gmail shortcut](docs/badge_pill.png)
+
+The pill badge above shows a notification count of 21045 clamped and rendered at the
+20000 cap on a mimicked Gmail shortcut — no third-party marker on the icon.
+
 # Lawnchair 15
 
 [![Build debug APK](https://github.com/LawnchairLauncher/lawnchair/actions/workflows/ci.yml/badge.svg)](https://github.com/LawnchairLauncher/lawnchair/actions/workflows/ci.yml)
